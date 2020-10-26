@@ -12,3 +12,7 @@ Webhook for Google Spreadsheet from any HTML
 1. Change the Link Script using Gscript published Link
 2. Make sure header at Google Spreadsheet Same as input name
 3. Input your data.
+
+
+Link for Example response
+https://docs.google.com/spreadsheets/d/190nIaaHTK8euVNql1BwVZgMFYcvt5vV4TJbC6ia6EiI/edit#gid=0

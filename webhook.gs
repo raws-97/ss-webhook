@@ -3,6 +3,10 @@ var idSheet = "SPREADSHEET_ID";
 
 //====== END OF SETTINGS==========////
 
+         function getAccess(){
+           SpreadsheetApp.openById(idSheet).getSheetByName(sheetName);
+         }
+
 		function doPost (e) {
 		  var lock = LockService.getScriptLock()
 		  lock.tryLock(10000)

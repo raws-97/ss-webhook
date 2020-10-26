@@ -1,10 +1,14 @@
 # ss-webhook
 Webhook for Google Spreadsheet from any HTML
 
-# Step by Step
+# Step by Step for Google Script
 1. Create Google Spreadsheet
 2. Create Google Appscript
 3. Paste the code to your Appscript
 4. Change the Sheetname and Spreadsheet ID
 5. Publish as Web App.
-6. Throw your Data to the web hook.
+
+# Step by Step for HTML
+1. Change the Link Script using Gscript published Link
+2. Make sure header at Google Spreadsheet Same as input name
+3. Input your data.
